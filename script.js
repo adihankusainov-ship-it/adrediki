@@ -45,7 +45,7 @@ const artists = [
     description:
       'Villian — это образ резкого, уверенного и агрессивного звучания. В его музыке ощущение движения и бескомпромиссной линии остаётся с собой надолго.',
     image:
-      'https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=80',
     genre: 'Рэп / тёмная энергия',
     era: '2021 — настоящее время',
     mood: 'жесткий · мрачный · мощный',
@@ -58,7 +58,7 @@ const artists = [
     description:
       'Cupsize — музыка о настроении, форме и ритмическом внутреннем рисунке. Его исполнение заметно своей особенной подачей и артистической глубиной.',
     image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80',
+      'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80',
     genre: 'Современный рэп / эмоциональный стиль',
     era: '2020 — настоящее время',
     mood: 'эмоциональный · насыщенный · стильный',
