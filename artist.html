@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Page</title>
+    <meta name="description" content="Страница артиста" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="artist-page" data-page="artist">
+    <header class="artist-header">
+      <div class="brand">FAVOURITE</div>
+      <a href="index.html" class="back-btn">← Назад</a>
+    </header>
+
+    <main class="artist-shell">
+      <div class="artist-visual">
+        <img id="artistImage" src="" alt="" />
+      </div>
+
+      <aside class="artist-info">
+        <p class="eyebrow">артист</p>
+        <h1 id="artistName">Имя</h1>
+        <div class="artist-title" id="artistTitle">Тайтл</div>
+
+        <p id="artistDescription" class="artist-description"></p>
+
+        <div class="artist-meta">
+          <ul class="meta-list">
+            <li><span>Жанр</span><strong id="artistGenre">—</strong></li>
+            <li><span>Период</span><strong id="artistEra">—</strong></li>
+            <li><span>Настроение</span><strong id="artistMood">—</strong></li>
+          </ul>
+        </div>
+
+        <div class="track-list">
+          <h3>Любимые треки</h3>
+          <ul id="artistTracks"></ul>
+        </div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
