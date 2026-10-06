@@ -460,93 +460,67 @@ main {
     font-size: 1.45rem;
   }
 }
+/* ===== ADRED ПО БОКАМ ===== */
+
 .adred-left,
 .adred-right {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 110px;
+
+    width: 90px;
     overflow: hidden;
-    z-index: 0;
+
     pointer-events: none;
     user-select: none;
 
+    z-index: 0;
+
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 45px;
+
+    gap: 40px;
 }
 
 .adred-left {
-    left: 15px;
+    left: 10px;
 }
 
 .adred-right {
-    right: 15px;
+    right: 10px;
 }
 
-/* Сами надписи */
+/* Надписи */
 .adred-left span,
 .adred-right span {
-    display: block;
+    flex-shrink: 0;
 
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 900;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
 
     color: rgba(255, 255, 255, 0.07);
 
     white-space: nowrap;
 
-    animation: adredUp 12s linear infinite;
+    animation: adredMove 14s linear infinite;
 }
 
-/* Правая сторона чуть отличается */
+/* Правая сторона немного медленнее */
 .adred-right span {
-    animation-duration: 15s;
+    animation-duration: 18s;
 }
 
-/* Движение снизу вверх */
-@keyframes adredUp {
+/* Плавное движение вверх */
+@keyframes adredMove {
     from {
-        transform: translateY(120vh) rotate(180deg);
+        transform: translateY(110vh) rotate(180deg);
     }
 
     to {
-        transform: translateY(-180vh) rotate(180deg);
-    }
-}
-
-/* Чтобы надписи не перекрывали твой сайт */
-.topbar,
-.content,
-main {
-    position: relative;
-    z-index: 2;
-}
-
-/* На телефоне делаем меньше */
-@media (max-width: 700px) {
-    .adred-left,
-    .adred-right {
-        width: 55px;
-        opacity: 0.6;
-    }
-
-    .adred-left {
-        left: 2px;
-    }
-
-    .adred-right {
-        right: 2px;
-    }
-
-    .adred-left span,
-    .adred-right span {
-        font-size: 35px;
-        letter-spacing: 4px;
+        transform: translateY(-150vh) rotate(180deg);
     }
 }
