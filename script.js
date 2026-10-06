@@ -67,28 +67,28 @@ const artists = [
   {
     id: 'fortuna-812',
     name: 'FORTUNA 812',
-    title: 'Энергия магии',
+    title: '812',
     description:
-      'FORTUNA 812 — российская рок-группа с мистическим звучанием и энергичным стилем.',
+      'Салахутдинов Александр Вячеславович (родился 22 августа 2006 года) — российский рэп-исполнитель и продюсер из Санкт-Петербурга. Участник объединения и один из основателей 812 legion. Популяризировал стиль музыки «archivecore», выпустив немало хитов с таким звучанием.',
     image:
-      'https://i.pinimg.com/736x/placeholder1.jpg',
-    genre: 'Рок / электроник',
-    era: 'современность',
-    mood: 'энергичный · мистический · дерзкий',
-    tracks: ['Трек 1', 'Трек 2', 'Трек 3']
+      'https://i.pinimg.com/736x/ae/f7/e0/aef7e0d2f55b661ee2dbc02f89f2d43a.jpg',
+    genre: 'Хип-хоп и хайперпоп',
+    era: '8',
+    mood: 'эгоцентричный · 8 · дерзкий',
+    tracks: ['Hollywood Highway', 'Trytofriend', 'armor club 2']
   },
   {
     id: 'zokha',
     name: 'ЗоХа',
     title: 'Лирическая душа',
     description:
-      'ЗоХа — исполнительница с уникальным голосом и лирическим стилем.',
+      'Юров Захар Олегович (родился 17 апреля 2004 года в Мурманске) — российский исполнитель и основатель ранее существующего проекта Паршивые.',
     image:
-      'https://i.pinimg.com/736x/placeholder2.jpg',
-    genre: 'Инди-поп / эмо',
-    era: '2019 — настоящее',
+      'https://i.pinimg.com/736x/1c/06/d1/1c06d1a46d4e3623fcb07f2ba108487a.jpg',
+    genre: ' (Захар Юров) исполняет музыку в жанрах альтернатива, рок и экспериментал',
+    era: 'Z',
     mood: 'лирический · чувственный · ранимый',
-    tracks: ['Песня 1', 'Песня 2', 'Песня 3']
+    tracks: ['Monster.', 'Кошка на байке', 'Wanted!']
   },
   {
     id: 'valentin-strykalo',
@@ -97,11 +97,11 @@ const artists = [
     description:
       'Валентин Стрыкало — украинский музыкант с глубоким и аутентичным звуком.',
     image:
-      'https://i.pinimg.com/736x/placeholder3.jpg',
+      'https://i.pinimg.com/736x/d6/2d/66/d62d66b0c147dc4d49b70dea6ad11f08.jpg',
     genre: 'Фолк / альтернатива',
     era: '2015 — настоящее',
     mood: 'глубокий · аутентичный · философский',
-    tracks: ['Композиция 1', 'Композиция 2', 'Композиция 3']
+    tracks: ['92', 'Кладбище самолётов', 'Бесполезно']
   },
   {
     id: '2hollis',
@@ -110,11 +110,11 @@ const artists = [
     description:
       '2hollis — электронный музыкант с инновационным подходом к музыке.',
     image:
-      'https://i.pinimg.com/736x/placeholder4.jpg',
+      'https://i.pinimg.com/736x/3f/f8/2d/3ff82d180f75751d4b47340fc0ce5238.jpg',
     genre: 'Электроника / синтпоп',
     era: '2018 — настоящее',
     mood: 'футуристический · креативный · экспериментальный',
-    tracks: ['Track A', 'Track B', 'Track C']
+    tracks: ['cliche', 'left to right', 'poster boy']
   },
   {
     id: 'the-beatles',
@@ -127,20 +127,20 @@ const artists = [
     genre: 'Рок / поп',
     era: '1960 — 1970',
     mood: '革新的 · мелодичный · вневременной',
-    tracks: ['Hey Jude', 'Let It Be', 'Yesterday']
+    tracks: ['Do You want To Know A Secret ', 'Here Comes The Sun', 'Yesterday']
   },
   {
     id: 'korolevskiy-xvii',
     name: 'Королевский XVII',
-    title: 'Волшебство звука',
+    title: 'vivra sa vie',
     description:
-      'Королевский XVII — загадочный проект с королевским и магическим стилем.',
+      'Дмитрий (родился 7 октября) — исполнитель из Волгограда. Свою деятельность начал под ником internetdoublex в 2021 году. В 2023 году сменил ник на королевский XVII. Подписант лейбла TRV.',
     image:
-      'https://i.pinimg.com/736x/placeholder6.jpg',
-    genre: 'Готика / синтпоп',
-    era: '2020 — настоящее',
-    mood: 'магический · величественный · таинственный',
-    tracks: ['Королевский танец', 'Тайна ночи', 'Зовите меня']
+      'https://i.pinimg.com/736x/64/74/e3/6474e38d90659410b27c3ae7d0ddd714.jpg',
+    genre: 'Хип-хоп / рэп',
+    era: 'high iq money',
+    mood: 'анонимней эмбера · меланхолия · таинственный',
+    tracks: ['1,5', 'sv moscow', 'Lee McQueen']
   }
 ];
 
