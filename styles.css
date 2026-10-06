@@ -460,25 +460,20 @@ main {
     font-size: 1.45rem;
   }
 }
-/* ===== ADRED ПО БОКАМ ===== */
-
 .adred-left,
 .adred-right {
     position: fixed;
     top: 0;
     bottom: 0;
-
     width: 90px;
     overflow: hidden;
 
     pointer-events: none;
     user-select: none;
-
     z-index: 0;
 
     display: flex;
     flex-direction: column;
-
     gap: 40px;
 }
 
@@ -490,7 +485,7 @@ main {
     right: 10px;
 }
 
-/* Надписи */
+/* ADRED */
 .adred-left span,
 .adred-right span {
     flex-shrink: 0;
@@ -509,12 +504,7 @@ main {
     animation: adredMove 14s linear infinite;
 }
 
-/* Правая сторона немного медленнее */
-.adred-right span {
-    animation-duration: 18s;
-}
-
-/* Плавное движение вверх */
+/* ОДНА скорость для обеих сторон */
 @keyframes adredMove {
     from {
         transform: translateY(110vh) rotate(180deg);
