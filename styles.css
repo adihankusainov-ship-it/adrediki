@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/blackcraft');
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +14,7 @@
   --line: rgba(255, 255, 255, 0.08);
   --accent: #d8d4c9;
   --shadow: rgba(0, 0, 0, 0.45);
-  --artist-name: #b084cc;
+  --artist-name: #4b101f;
 }
 
 html {
@@ -67,6 +69,7 @@ main {
   font-weight: 800;
   color: var(--text);
   opacity: 0.92;
+  font-family: 'Blackcraft', serif;
 }
 
 .nav {
@@ -114,6 +117,7 @@ main {
   letter-spacing: -0.06em;
   font-weight: 900;
   text-transform: uppercase;
+  font-family: 'Blackcraft', serif;
 }
 
 .subtitle {
@@ -228,6 +232,7 @@ main {
   font-weight: 800;
   letter-spacing: -0.05em;
   color: var(--artist-name);
+  font-family: 'Blackcraft', serif;
   animation: slideInRight 0.8s ease-out;
 }
 
@@ -343,6 +348,7 @@ main {
   margin: 0;
   letter-spacing: -0.06em;
   color: var(--artist-name);
+  font-family: 'Blackcraft', serif;
 }
 
 .artist-description {
