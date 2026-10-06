@@ -80,7 +80,7 @@ const artists = [
   {
     id: 'zokha',
     name: 'ЗоХа',
-    title: 'Лирическая душа',
+    title: 'Eve.',
     description:
       'Юров Захар Олегович (родился 17 апреля 2004 года в Мурманске) — российский исполнитель и основатель ранее существующего проекта Паршивые.',
     image:
@@ -93,7 +93,7 @@ const artists = [
   {
     id: 'valentin-strykalo',
     name: 'Валентин Стрыкало',
-    title: 'Душа музыки',
+    title: 'О брат',
     description:
       'Валентин Стрыкало — украинский музыкант с глубоким и аутентичным звуком.',
     image:
@@ -106,7 +106,7 @@ const artists = [
   {
     id: '2hollis',
     name: '2hollis',
-    title: 'Цифровой звук',
+    title: 'Poster Boy',
     description:
       '2hollis — электронный музыкант с инновационным подходом к музыке.',
     image:
@@ -119,7 +119,7 @@ const artists = [
   {
     id: 'the-beatles',
     name: 'The Beatles',
-    title: 'Легенды рока',
+    title: 'Darling',
     description:
       'The Beatles — британская рок-группа, которая перевернула историю музыки.',
     image:
