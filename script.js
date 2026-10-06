@@ -150,8 +150,6 @@ function renderArtistCards() {
 
   grid.innerHTML = artists
     .map(
-      (artist) => `
-      .map(
   (artist) => `
        <a class="artist-card" href="artist.html?artist=${artist.id}" aria-label="Открыть страницу ${artist.name}">
           <img src="${artist.image}" alt="${artist.name}" />
