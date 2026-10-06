@@ -153,17 +153,13 @@ function renderArtistCards() {
       (artist) => `
       .map(
   (artist) => `
-    <a class="artist-card" href="artist.html?artist=${artist.id}" aria-label="Открыть страницу ${artist.name}">
-      
-      <img src="${artist.image}" alt="${artist.name}" />
-
-      <div class="artist-card-content">
-        <h3>${artist.name}</h3>
-        <p>${artist.title}</p>
-      </div>
-
-    </a>
-
+       <a class="artist-card" href="artist.html?artist=${artist.id}" aria-label="Открыть страницу ${artist.name}">
+          <img src="${artist.image}" alt="${artist.name}" />
+          <div class="artist-card-content">
+            <h3>${artist.name}</h3>
+            <p>${artist.title}</p>
+          </div>
+        </a>
       `
     )
     .join('');
