@@ -490,6 +490,9 @@ main {
 .adred-right span {
     flex-shrink: 0;
 
+    font-family: 'Blackcraft', sans-serif;
+
+
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 
