@@ -151,34 +151,18 @@ function renderArtistCards() {
   grid.innerHTML = artists
     .map(
       (artist) => `
-       <a class="artist-card" href="artist.html?artist=${artist.id}" aria-label="Открыть страницу ${artist.name}">
-  
-  <div class="card-adred" aria-hidden="true">
-    <div class="card-adred-track">
-      <div class="card-adred-group">
-        <span>ADRED</span>
-        <span>ADRED</span>
-        <span>ADRED</span>
-        <span>ADRED</span>
+      .map(
+  (artist) => `
+    <a class="artist-card" href="artist.html?artist=${artist.id}" aria-label="Открыть страницу ${artist.name}">
+      
+      <img src="${artist.image}" alt="${artist.name}" />
+
+      <div class="artist-card-content">
+        <h3>${artist.name}</h3>
+        <p>${artist.title}</p>
       </div>
 
-      <div class="card-adred-group">
-        <span>ADRED</span>
-        <span>ADRED</span>
-        <span>ADRED</span>
-        <span>ADRED</span>
-      </div>
-    </div>
-  </div>
-
-  <img src="${artist.image}" alt="${artist.name}" />
-
-  <div class="artist-card-content">
-    <h3>${artist.name}</h3>
-    <p>${artist.title}</p>
-  </div>
-
-</a>
+    </a>
 
       `
     )
