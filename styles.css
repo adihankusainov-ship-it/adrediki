@@ -460,21 +460,23 @@ main {
     font-size: 1.45rem;
   }
 }
-.adred-left,
-.adred-right {
+/* =========================
+   ADRED — ПЛАВНЫЙ БЕСКОНЕЧНЫЙ ПОТОК
+   ========================= */
+
+.adred-side {
     position: fixed;
     top: 0;
     bottom: 0;
-    width: 90px;
+
+    width: 100px;
+
     overflow: hidden;
 
     pointer-events: none;
     user-select: none;
-    z-index: 0;
 
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    z-index: 0;
 }
 
 .adred-left {
@@ -485,13 +487,28 @@ main {
     right: 10px;
 }
 
-/* ADRED */
-.adred-left span,
-.adred-right span {
+.adred-track {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 45px;
+
+    /* ВАЖНО — двигаем всю колонну целиком */
+    animation: adredInfinite 20s linear infinite;
+}
+
+.adred-track span {
     flex-shrink: 0;
 
     font-family: 'Blackcraft', sans-serif;
-
 
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -503,17 +520,16 @@ main {
     color: rgba(255, 255, 255, 0.07);
 
     white-space: nowrap;
-
-    animation: adredMove 14s linear infinite;
 }
 
-/* ОДНА скорость для обеих сторон */
-@keyframes adredMove {
+
+/* Бесконечное движение */
+@keyframes adredInfinite {
     from {
-        transform: translateY(110vh) rotate(180deg);
+        transform: translateY(0);
     }
 
     to {
-        transform: translateY(-150vh) rotate(180deg);
+        transform: translateY(-50%);
     }
 }
