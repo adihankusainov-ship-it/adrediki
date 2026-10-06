@@ -65,6 +65,98 @@ const artists = [
     tracks: ['детская травма', 'целую тебя', 'кислород']
   }
 ];
+ {
+    id: 'cupsize',
+    name: 'Cupsize',
+    title: 'ЗМП',
+    description:
+        'Гаражная инди-группа с элементами лоуфай-блюза и панка из города Ярославль.',
+    image:
+      'https://i.pinimg.com/736x/e0/4a/8f/e04a8f871eb3cee0d9308a06b0cad7b7.jpg',
+    genre: 'Современный рэп / эмоциональный стиль',
+    era: '2020 — настоящее время',
+    mood: 'эмоциональный · насыщенный · стильный',
+    tracks: ['детская травма', 'целую тебя', 'кислород']
+  },
+  {
+    id: 'fortuna-812',
+    name: 'FORTUNA 812',
+    title: 'Энергия магии',
+    description:
+      'FORTUNA 812 — российская рок-группа с мистическим звучанием и энергичным стилем.',
+    image:
+      'https://i.pinimg.com/736x/placeholder1.jpg',
+    genre: 'Рок / электроник',
+    era: 'современность',
+    mood: 'энергичный · мистический · дерзкий',
+    tracks: ['Трек 1', 'Трек 2', 'Трек 3']
+  },
+  {
+    id: 'zokha',
+    name: 'ЗоХа',
+    title: 'Лирическая душа',
+    description:
+      'ЗоХа — исполнительница с уникальным голосом и лирическим стилем.',
+    image:
+      'https://i.pinimg.com/736x/placeholder2.jpg',
+    genre: 'Инди-поп / эмо',
+    era: '2019 — настоящее',
+    mood: 'лирический · чувственный · ранимый',
+    tracks: ['Песня 1', 'Песня 2', 'Песня 3']
+  },
+  {
+    id: 'valentin-strykalo',
+    name: 'Валентин Стрыкало',
+    title: 'Душа музыки',
+    description:
+      'Валентин Стрыкало — украинский музыкант с глубоким и аутентичным звуком.',
+    image:
+      'https://i.pinimg.com/736x/placeholder3.jpg',
+    genre: 'Фолк / альтернатива',
+    era: '2015 — настоящее',
+    mood: 'глубокий · аутентичный · философский',
+    tracks: ['Композиция 1', 'Композиция 2', 'Композиция 3']
+  },
+  {
+    id: '2hollis',
+    name: '2hollis',
+    title: 'Цифровой звук',
+    description:
+      '2hollis — электронный музыкант с инновационным подходом к музыке.',
+    image:
+      'https://i.pinimg.com/736x/placeholder4.jpg',
+    genre: 'Электроника / синтпоп',
+    era: '2018 — настоящее',
+    mood: 'футуристический · креативный · экспериментальный',
+    tracks: ['Track A', 'Track B', 'Track C']
+  },
+  {
+    id: 'the-beatles',
+    name: 'The Beatles',
+    title: 'Легенды рока',
+    description:
+      'The Beatles — британская рок-группа, которая перевернула историю музыки.',
+    image:
+      'https://i.pinimg.com/736x/placeholder5.jpg',
+    genre: 'Рок / поп',
+    era: '1960 — 1970',
+    mood: '革新的 · мелодичный · вневременной',
+    tracks: ['Hey Jude', 'Let It Be', 'Yesterday']
+  },
+  {
+    id: 'korolevskiy-xvii',
+    name: 'Королевский XVII',
+    title: 'Волшебство звука',
+    description:
+      'Королевский XVII — загадочный проект с королевским и магическим стилем.',
+    image:
+      'https://i.pinimg.com/736x/placeholder6.jpg',
+    genre: 'Готика / синтпоп',
+    era: '2020 — настоящее',
+    mood: 'магический · величественный · таинственный',
+    tracks: ['Королевский танец', 'Тайна ночи', 'Зовите меня']
+  }
+];
 
 function renderArtistCards() {
   const grid = document.getElementById('artistGrid');
