@@ -460,25 +460,93 @@ main {
     font-size: 1.45rem;
   }
 }
-.side-text {
+.adred-left,
+.adred-right {
     position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    writing-mode: vertical-rl;
-    font-size: 80px;
-    font-weight: 900;
-    letter-spacing: 10px;
-    color: rgba(255, 255, 255, 0.08);
+    top: 0;
+    bottom: 0;
+    width: 110px;
+    overflow: hidden;
     z-index: 0;
     pointer-events: none;
     user-select: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 45px;
 }
 
-.side-left {
+.adred-left {
     left: 15px;
-    transform: translateY(-50%) rotate(180deg);
 }
 
-.side-right {
+.adred-right {
     right: 15px;
+}
+
+/* Сами надписи */
+.adred-left span,
+.adred-right span {
+    display: block;
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 8px;
+
+    color: rgba(255, 255, 255, 0.07);
+
+    white-space: nowrap;
+
+    animation: adredUp 12s linear infinite;
+}
+
+/* Правая сторона чуть отличается */
+.adred-right span {
+    animation-duration: 15s;
+}
+
+/* Движение снизу вверх */
+@keyframes adredUp {
+    from {
+        transform: translateY(120vh) rotate(180deg);
+    }
+
+    to {
+        transform: translateY(-180vh) rotate(180deg);
+    }
+}
+
+/* Чтобы надписи не перекрывали твой сайт */
+.topbar,
+.content,
+main {
+    position: relative;
+    z-index: 2;
+}
+
+/* На телефоне делаем меньше */
+@media (max-width: 700px) {
+    .adred-left,
+    .adred-right {
+        width: 55px;
+        opacity: 0.6;
+    }
+
+    .adred-left {
+        left: 2px;
+    }
+
+    .adred-right {
+        right: 2px;
+    }
+
+    .adred-left span,
+    .adred-right span {
+        font-size: 35px;
+        letter-spacing: 4px;
+    }
 }
